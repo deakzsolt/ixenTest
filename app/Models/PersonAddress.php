@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
-class PersonAdres extends Model
+class PersonAddress extends Model
 {
     use HasFactory;
 
@@ -23,6 +23,7 @@ class PersonAdres extends Model
      * @var array
      */
     protected $fillable = [
+        'person_id',
         'permanent_address',
         'temporary_address',
     ];

@@ -16,6 +16,7 @@ class PersonContacts extends Model
      * @var array
      */
     protected $fillable = [
+        'person_id',
         'contact_type',
         'contact_value',
     ];

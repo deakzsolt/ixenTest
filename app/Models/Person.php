@@ -43,9 +43,9 @@ class Person extends Model
      *
      * @return HasOne
      */
-    public function personAdres(): HasOne
+    public function personAddress(): HasOne
     {
-        return $this->hasOne(PersonAdres::class);
+        return $this->hasOne(PersonAddress::class);
     }
 
     /**
